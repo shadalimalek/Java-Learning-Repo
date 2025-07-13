@@ -1,19 +1,3 @@
-ECHO is on.
-# ☕ Java Learning Repo
-
-Welcome! This is a beginner-friendly, topic-wise Java learning repository.
-
-👨‍🏫 I'm learning and teaching Java — one topic per day.  
-📚 Each folder has:
-- ✅ Source code
-- ✅ Notes (Markdown)
-- ✅ YouTube Shorts script (in progress)
-- ✅ GitHub commits for each day
-
----
-
-## 📁 Folder Structure
-
 # ☕ Java Learning Repo
 
 Welcome! This is a beginner-friendly, topic-wise Java learning repository.
