@@ -1,1 +1,19 @@
 ECHO is on.
+# Java build files
+*.class
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# IntelliJ / Eclipse / build tools
+*.iml
+.idea/
+target/
+out/
+bin/
