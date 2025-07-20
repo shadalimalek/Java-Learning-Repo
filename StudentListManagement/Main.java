@@ -3,6 +3,9 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+        int targetRollNo = 3;
+        boolean found = false;
+
         ArrayList<Student> students = new ArrayList<>();
 
         //add 3 Students
@@ -11,7 +14,15 @@ public class Main {
         students.add(new Student("Rehan", 3, 76.0));
 
         for(Student s : students) {
-            s.displayDetails();
+            if(s.rollNo == targetRollNo) {
+                s.displayDetails();
+                found = true;
+                break;
+            }
+        }
+
+        if(!found) {
+            System.out.println("Student not found");
         }
     }
 }
