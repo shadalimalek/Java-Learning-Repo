@@ -5,6 +5,8 @@ public class Main {
     public static void main(String[] args) {
         int targetRollNo = 3;
         boolean found = false;
+        int removeRollNo = 3;
+        boolean removed = false;
 
         ArrayList<Student> students = new ArrayList<>();
 
@@ -21,8 +23,21 @@ public class Main {
             }
         }
 
+        for(int i = 0; i < students.size(); i++) {
+            if(students.get(i).rollNo == removeRollNo) {
+                students.remove(i);
+                System.out.println("Student with roll no " + removeRollNo + " remove.");
+                removed = true;
+                break;
+            }
+        }
+
         if(!found) {
             System.out.println("Student not found");
+        }
+
+        if(!removed) {
+            System.out.println("Student with roll no " + removeRollNo + " not found.");
         }
     }
 }
